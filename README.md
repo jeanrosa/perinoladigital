@@ -1,3 +1,4 @@
 # perinoladigital
-Perinola Digital Web
-todo bien como esta la cosa!!!! 
+Perinola Digital
+HTML5, CSS3, PHP
+

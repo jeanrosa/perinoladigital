@@ -1,0 +1,161 @@
+@media screen and (max-width: 1250px)
+{
+	*
+	{
+		font-size: 12px;
+	}
+	[class*="col-"]{
+	    width: 100%;
+	}
+	[class*="tfondo"]{
+		background-size: 0%;
+	}
+	.cab-img
+	{
+	width: 15%;
+	}
+	nav{
+		text-align: center;
+	}
+	#navegador li
+	{
+	display: inline;
+	list-style: none;
+	padding: 1em;
+	}
+	#lateral
+	{
+	position: relative;
+	}
+	#pie-nav
+	{
+	display: none;
+	}
+	 .absoluto{
+	position: relative;
+	}
+	.izquierda{
+		text-align: center;
+	}
+	.derecha{
+		text-align: center;
+	}
+}
+
+
+/*Medidas para tables*/
+@media screen and (max-width: 750px) {
+	*
+	{
+	font-size: 12px;	
+	}
+	article{
+		padding: 1em;
+	}
+	.icon
+	{
+		display: block;
+		display: block;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	#navegador
+	{
+		display: none;
+	}
+	#pie-nav
+	{
+		display: none;
+	}
+
+	/*TopNav Responsive*/
+
+	.topnav.responsive {
+		position: relative;
+		display: block;
+
+	}
+  	.topnav.responsive .icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  }
+  .topnav.responsive #navegador {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+    .topnav.responsive #navegador li {
+      float: none;
+    display: block;
+    text-align: left;
+    padding: 0.3em;
+  }
+  
+.absoluto{
+	position: relative;
+}
+@media screen and (max-width: 640px) 
+{
+	*
+	{
+	font-size: 10px;	
+	}
+	
+	{
+	h1 {
+		font-size: 1.45em;
+		padding: 1em;
+	}
+
+	#navegador a{
+		font-size: 1.45em;
+	}
+
+	article{
+		padding: 6em;
+		border:	2;
+	}
+	.icon
+	{
+		display: block;
+		display: block;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	#navegador
+	{
+		display: none;
+	}
+	#pie-nav
+	{
+		display: none;
+	}
+
+	/*TopNav Responsive*/
+
+	.topnav.responsive {
+		position: relative;
+		display: block;
+
+	}
+  	.topnav.responsive .icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  }
+  .topnav.responsive #navegador {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+    .topnav.responsive #navegador li {
+      float: none;
+    display: block;
+    text-align: left;
+    padding: 0.3em;
+  }
+  
+}
+
+

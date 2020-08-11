@@ -1,0 +1,404 @@
+/*reseteo de todos las propiedades por defecto*/
+@font-face {
+font-family: HelveticaNeue;
+/*font-style: normal;
+font-weight: normal;*/
+src: url(font/HelveticaNeue.otf);
+}
+*{
+	font-family: Helvetica;
+	box-sizing: border-box;
+	margin: 0 auto;
+	border: 0;
+	padding: 0;
+	font-size: 16px;
+	text-decoration: none;
+}
+a {color: black;}
+.pointer{cursor: pointer;}
+.button{
+	background-color: white;
+	border: solid 1px #e19e44;
+	border-radius: 50%;
+	padding: 0.5em;
+	display: inline-block;
+	font-size: 1em;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #e19e44;
+    color: white;
+}
+/*Parrafos*/		
+h1 {
+	font-size: 1.6em;
+	padding: 1em;
+}
+.titulo{
+	font-size: 2em;
+	padding-left:  4em;
+}
+.bajo{
+	margin-top: 40%;
+	font-size: 2em;
+	padding: 0.8em;
+}
+h2{
+	font-size: 150%;
+	padding: 0.7em;
+}
+h3{
+	font-size: 120%;
+	padding: 0.5em;
+}
+
+p{
+	font-size: 100%;
+	padding: 0.3em;
+}
+/*Navegador*/
+nav{
+	padding: 1em;
+	text-align: initial;
+}
+.ImgBajo{
+	vertical-align: text-bottom;
+}
+#titulos{
+	padding-top: 3em;
+}
+
+.header{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.tituloHome {
+	font-size: 1.8em;	
+	color:black;
+}
+/*Vinculos*/
+#navegador a{
+	font-size: 1.6em;
+}
+#navegador a:link {
+    color: black;
+}
+
+#navegador a:visited {
+    color: black;
+}
+
+/* mouse over link */
+#navegador li:hover {
+    background: white;
+}
+
+/* selected link */
+#navegador a:active {
+    color: white;
+}
+/*Todas los elementos Section*/
+
+
+.article img{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+/*clase para limpiar y agregar las propiedades*/
+.filas{
+	height: 100%;
+	overflow: hidden;
+}
+.filas::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.formularios input, textarea{
+	width: 100%;
+	padding: 0.3em;
+	margin: 0.3em;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.formularios input[type=submit], input[type=reset]{
+	width: 100%;
+    cursor: pointer;
+
+}
+.redondas{
+	border-bottom-left-radius: 20% 60%;	
+	border-top-left-radius: 2% 40%;
+}
+.negro{color: black	;}
+.sombras{box-shadow: -6px 0px 0px #eae6e6;}
+.amarilla{border-left:   4px solid #f1ce40;}
+.amarilla h1{color: #f1ce40; }
+.naranja{border-left:   4px solid #e19e44;}
+.naranja h1{color: #e19e44;}
+.verde{border-left:   4px solid #7aa350;}
+.verde h1{color: #7aa350;}
+.azul{border-left:   4px solid #05725f;}
+.azul h1{color: #05725f;}
+
+.tab{
+	padding: 0.8em;
+	text-align: center;
+}
+.tab button{
+	background-color: white;
+    border: solid 1px #e19e44;
+    border-radius: 50%;
+    padding: 0.5em;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+}
+.tab button:hover {
+	background-color: #e19e44;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    animation: fadeEffect 2s;
+    -webkit-animation: fadeEffect 2s;
+    transition-duration: 0.4s;
+}
+
+ .ImgComp {background-size: auto;}
+
+.tfondoQuienes
+{ 
+	background-image: url('../img/Quienes.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+ }
+
+.tfondoOfrecemos
+{ 
+	background-image: url('../img/ofrecemos.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoDonde
+{ 
+	background-image: url('../img/donde.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoContacto
+{ 
+	background-image: url('../img/contacto.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoBalero{
+	background-image: url('../img/balero.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoEmboque{
+	background-image: url('../img/emboque.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoBoliche{
+	background-image: url('../img/boliche.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoTicayo{
+	background-image: url('../img/ticayo.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoEnsamble{
+	background-image: url('../img/ensamble.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoEventos{
+	background-image: url('../img/eventos.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.tfondoAsesoria{
+	background-image: url('../img/contacto.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+}
+
+.afondoamarillo{
+    background: linear-gradient(90deg, #f1ce40, #f1ce40, white); 
+}
+.afondonaranja{
+    background: linear-gradient(90deg, #e19e44, #e19e44, white); 
+}
+.afondoverde{
+    background: linear-gradient(90deg, #7aa350, #7aa350, white); 
+}
+.afondoazul{
+    background: linear-gradient(90deg, #05725f, #05725f, white); 
+}
+.derecha{
+	text-align: right;
+}
+.izquierda{
+	text-align: left;
+}
+.centro{
+	text-align: center;
+}
+.abajo{
+	vertical-align: middle;
+}
+
+.centrar{
+	padding-left: 4em;
+	padding-right: 6em;
+	padding-bottom: 4em;
+}
+.relativo{
+	position: relative;
+}
+.absoluto{
+	position: absolute;
+    bottom: 15px;
+}
+.completo{
+	height: 100%;
+	width: 100%;
+}
+span {
+	color:black;
+	text-indent: 30%;
+}	
+
+
+/*todas las clases que empienzen con col-, para agregarles las propuedades*/
+[class*="col-"] {
+    float: left;
+}
+
+/*Clases adaptadas a varios bloques inline*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*Id de cada region*/
+#lateral{
+	position: absolute;
+	height: 90%;
+}
+/*Cabecera Nav*/
+#cabezera
+{
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+.adentro
+{
+
+}
+.cab-img
+{
+	width: 34%;
+}
+
+#logo
+{
+	border: 1px ;
+	text-align: center;
+}
+#navegador
+{
+	border: 1px ;
+}
+#navegador li
+{
+	display: block;
+	list-style: none;
+	padding: 0.4em;
+	margin: 0.1em;
+}
+
+.icon {
+  display: none ;
+}
+/*Fin Navegador*/
+#cuerpo
+{
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+#pie-nav
+{
+	width: auto;
+}
+#pie-nav img
+{
+	width: 90%;
+}
+#pie 
+{
+	padding-top: 1em;
+}
+
+/*#redes {
+	text-align: center;
+}*/
+#redes{text-align: center;}
+#redes img{
+	text-align: center;
+	width: 40%;
+}
+
+  
+
+ /* .fondoQuienes
+	{ 
+	background-image: url('../img/Quienes.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 30%;
+	}
+	.fondoOfrecemos
+	{ 
+	background-image: url('../img/ofrecemos.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 30%;
+	}
+	.fondoDonde
+	{ 
+	background-image: url('../img/donde.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 30%;
+	}
+	.fondoContacto
+	{ 
+	background-image: url('../img/contacto.png');
+	background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 30%;
+	}	*/
+
+
